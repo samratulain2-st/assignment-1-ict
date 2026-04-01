@@ -1,0 +1,14 @@
+
+
+.input{
+    max-width: 300px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+.Accept-btn {
+    background-color: royalblue;
+    border-top: 5px;
+    text-align: center;
+}

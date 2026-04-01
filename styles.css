@@ -1,0 +1,101 @@
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/*Header*/
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe5d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.main-heading {
+    color: darkred;
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px 0;
+
+}
+
+.tagline {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 15px;
+
+
+}
+
+.signup-btn {
+    background-color: darkred;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #a30000;
+}
+
+/*Section Titles*/
+.section-title,
+.menu-title {
+    text-align: center;
+    font-size: 32px;
+    color: darkred;
+    margin-top: 30px;
+
+}
+
+/*About Us Paragraph */
+.about-text {
+    text-align: center;
+    font-size: 18px;
+    width: 70%;
+    margin: 10px auto 30px auto;
+}
+
+/*Menu Boxes*/
+.menu-box {
+    list-style-type: square;
+    background-color: #fff3e0;
+    padding: 20px;
+    width: 320px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.menu-box li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+    transition: 0.3s;
+}
+
+.menu-box li:hover {
+    color: darkred;
+    cursor: pointer;
+}
