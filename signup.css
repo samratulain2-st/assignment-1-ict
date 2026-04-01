@@ -8,7 +8,21 @@
     gap: 8px;
 }
 .Accept-btn {
-    background-color: royalblue;
-    border-top: 5px;
-    text-align: center;
+    background-color: deepskyblue;
+    display: block;
+    margin: 20px auto;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+ 
+
+}
+.main-box {
+    font-style: normal;
+    border: 2px solid;
+    width: 300px;
+    background-color: aliceblue;
+
 }
